@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D1F3707211AA272C90D0825 /* libPods-playcondominio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 015BBF7C86BB4121B1546C47 /* libPods-playcondominio.a */; };
+		BA02ADC722F0BFB500867E65 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA02ADC622F0BFB500867E65 /* GoogleService-Info.plist */; };
 		BAAC08D822BD67DA003900C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAC08D722BD67DA003900C6 /* AppDelegate.swift */; };
 		BAAC08DA22BD67DA003900C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAC08D922BD67DA003900C6 /* ViewController.swift */; };
 		BAAC08DD22BD67DA003900C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAC08DB22BD67DA003900C6 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		BAAC08E222BD67DC003900C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAC08E022BD67DC003900C6 /* LaunchScreen.storyboard */; };
 		BAAC08ED22BD67DC003900C6 /* playcondominioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAC08EC22BD67DC003900C6 /* playcondominioTests.swift */; };
 		BAAC08F822BD67DC003900C6 /* playcondominioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAC08F722BD67DC003900C6 /* playcondominioUITests.swift */; };
+		DA13306D13E46407BA1F44A7 /* libPods-playcondominioTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC0CEE232A8707F06330056 /* libPods-playcondominioTests.a */; };
+		DFB405DD3F37050538113E4C /* libPods-playcondominioUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B06B792490E8A2D95C3CA66B /* libPods-playcondominioUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		015BBF7C86BB4121B1546C47 /* libPods-playcondominio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-playcondominio.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CBF1DFB7AF489BE3B48CE25 /* Pods-playcondominioUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-playcondominioUITests.debug.xcconfig"; path = "Target Support Files/Pods-playcondominioUITests/Pods-playcondominioUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		63A8907F694E3EC064FCE5C3 /* Pods-playcondominio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-playcondominio.release.xcconfig"; path = "Target Support Files/Pods-playcondominio/Pods-playcondominio.release.xcconfig"; sourceTree = "<group>"; };
+		85F7BB98C53C43D8961E3719 /* Pods-playcondominioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-playcondominioTests.release.xcconfig"; path = "Target Support Files/Pods-playcondominioTests/Pods-playcondominioTests.release.xcconfig"; sourceTree = "<group>"; };
+		B06B792490E8A2D95C3CA66B /* libPods-playcondominioUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-playcondominioUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA02ADC622F0BFB500867E65 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BA02ADC822F1D3CE00867E65 /* playcondominio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = playcondominio.entitlements; sourceTree = "<group>"; };
+		BA3F88B194E9456E9F7F2302 /* Pods-playcondominioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-playcondominioTests.debug.xcconfig"; path = "Target Support Files/Pods-playcondominioTests/Pods-playcondominioTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BAAC08D422BD67DA003900C6 /* playcondominio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playcondominio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAAC08D722BD67DA003900C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAAC08D922BD67DA003900C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,9 @@
 		BAAC08F322BD67DC003900C6 /* playcondominioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = playcondominioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAAC08F722BD67DC003900C6 /* playcondominioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playcondominioUITests.swift; sourceTree = "<group>"; };
 		BAAC08F922BD67DC003900C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDC0CEE232A8707F06330056 /* libPods-playcondominioTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-playcondominioTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD31FC2180220776F68290EB /* Pods-playcondominio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-playcondominio.debug.xcconfig"; path = "Target Support Files/Pods-playcondominio/Pods-playcondominio.debug.xcconfig"; sourceTree = "<group>"; };
+		E6440487FF8784A075DD1D06 /* Pods-playcondominioUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-playcondominioUITests.release.xcconfig"; path = "Target Support Files/Pods-playcondominioUITests/Pods-playcondominioUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D1F3707211AA272C90D0825 /* libPods-playcondominio.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA13306D13E46407BA1F44A7 /* libPods-playcondominioTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +85,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFB405DD3F37050538113E4C /* libPods-playcondominioUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B5D9E87055EC805641508DB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD31FC2180220776F68290EB /* Pods-playcondominio.debug.xcconfig */,
+				63A8907F694E3EC064FCE5C3 /* Pods-playcondominio.release.xcconfig */,
+				BA3F88B194E9456E9F7F2302 /* Pods-playcondominioTests.debug.xcconfig */,
+				85F7BB98C53C43D8961E3719 /* Pods-playcondominioTests.release.xcconfig */,
+				1CBF1DFB7AF489BE3B48CE25 /* Pods-playcondominioUITests.debug.xcconfig */,
+				E6440487FF8784A075DD1D06 /* Pods-playcondominioUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BAAC08CB22BD67DA003900C6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +112,8 @@
 				BAAC08EB22BD67DC003900C6 /* playcondominioTests */,
 				BAAC08F622BD67DC003900C6 /* playcondominioUITests */,
 				BAAC08D522BD67DA003900C6 /* Products */,
+				B5D9E87055EC805641508DB1 /* Pods */,
+				CFB031C540B5C00AABCB62C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,10 +130,12 @@
 		BAAC08D622BD67DA003900C6 /* playcondominio */ = {
 			isa = PBXGroup;
 			children = (
+				BA02ADC822F1D3CE00867E65 /* playcondominio.entitlements */,
 				BAAC08D722BD67DA003900C6 /* AppDelegate.swift */,
 				BAAC08D922BD67DA003900C6 /* ViewController.swift */,
 				BAAC08DB22BD67DA003900C6 /* Main.storyboard */,
 				BAAC08DE22BD67DC003900C6 /* Assets.xcassets */,
+				BA02ADC622F0BFB500867E65 /* GoogleService-Info.plist */,
 				BAAC08E022BD67DC003900C6 /* LaunchScreen.storyboard */,
 				BAAC08E322BD67DC003900C6 /* Info.plist */,
 			);
@@ -125,6 +160,16 @@
 			path = playcondominioUITests;
 			sourceTree = "<group>";
 		};
+		CFB031C540B5C00AABCB62C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				015BBF7C86BB4121B1546C47 /* libPods-playcondominio.a */,
+				CDC0CEE232A8707F06330056 /* libPods-playcondominioTests.a */,
+				B06B792490E8A2D95C3CA66B /* libPods-playcondominioUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +177,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAAC08FC22BD67DC003900C6 /* Build configuration list for PBXNativeTarget "playcondominio" */;
 			buildPhases = (
+				EA285A05150F392E4CD3E466 /* [CP] Check Pods Manifest.lock */,
 				BAAC08D022BD67DA003900C6 /* Sources */,
 				BAAC08D122BD67DA003900C6 /* Frameworks */,
 				BAAC08D222BD67DA003900C6 /* Resources */,
@@ -149,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAAC08FF22BD67DC003900C6 /* Build configuration list for PBXNativeTarget "playcondominioTests" */;
 			buildPhases = (
+				4AE1ECC0516459AABD299A83 /* [CP] Check Pods Manifest.lock */,
 				BAAC08E422BD67DC003900C6 /* Sources */,
 				BAAC08E522BD67DC003900C6 /* Frameworks */,
 				BAAC08E622BD67DC003900C6 /* Resources */,
@@ -167,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAAC090222BD67DC003900C6 /* Build configuration list for PBXNativeTarget "playcondominioUITests" */;
 			buildPhases = (
+				4ACC8C980DD211F94079EDCE /* [CP] Check Pods Manifest.lock */,
 				BAAC08EF22BD67DC003900C6 /* Sources */,
 				BAAC08F022BD67DC003900C6 /* Frameworks */,
 				BAAC08F122BD67DC003900C6 /* Resources */,
@@ -193,6 +241,11 @@
 				TargetAttributes = {
 					BAAC08D322BD67DA003900C6 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					BAAC08E722BD67DC003900C6 = {
 						CreatedOnToolsVersion = 10.1;
@@ -230,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAAC08E222BD67DC003900C6 /* LaunchScreen.storyboard in Resources */,
+				BA02ADC722F0BFB500867E65 /* GoogleService-Info.plist in Resources */,
 				BAAC08DF22BD67DC003900C6 /* Assets.xcassets in Resources */,
 				BAAC08DD22BD67DA003900C6 /* Main.storyboard in Resources */,
 			);
@@ -250,6 +304,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4ACC8C980DD211F94079EDCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-playcondominioUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AE1ECC0516459AABD299A83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-playcondominioTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA285A05150F392E4CD3E466 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-playcondominio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BAAC08D022BD67DA003900C6 /* Sources */ = {
@@ -430,17 +553,22 @@
 		};
 		BAAC08FD22BD67DC003900C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD31FC2180220776F68290EB /* Pods-playcondominio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = playcondominio/playcondominio.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X8A4RUMHE7;
 				INFOPLIST_FILE = playcondominio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = comapp.playcondominio;
+				PRODUCT_BUNDLE_IDENTIFIER = playcondominio.comapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,17 +576,22 @@
 		};
 		BAAC08FE22BD67DC003900C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63A8907F694E3EC064FCE5C3 /* Pods-playcondominio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = playcondominio/playcondominio.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X8A4RUMHE7;
 				INFOPLIST_FILE = playcondominio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = comapp.playcondominio;
+				PRODUCT_BUNDLE_IDENTIFIER = playcondominio.comapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -466,6 +599,7 @@
 		};
 		BAAC090022BD67DC003900C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA3F88B194E9456E9F7F2302 /* Pods-playcondominioTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +621,7 @@
 		};
 		BAAC090122BD67DC003900C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85F7BB98C53C43D8961E3719 /* Pods-playcondominioTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +643,7 @@
 		};
 		BAAC090322BD67DC003900C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CBF1DFB7AF489BE3B48CE25 /* Pods-playcondominioUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +664,7 @@
 		};
 		BAAC090422BD67DC003900C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6440487FF8784A075DD1D06 /* Pods-playcondominioUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

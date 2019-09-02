@@ -1,0 +1,6 @@
+framework module Pods_playcondominioUITests {
+  umbrella header "Pods-playcondominioUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

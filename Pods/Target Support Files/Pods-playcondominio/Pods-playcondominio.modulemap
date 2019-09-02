@@ -1,0 +1,6 @@
+framework module Pods_playcondominio {
+  umbrella header "Pods-playcondominio-umbrella.h"
+
+  export *
+  module * { export * }
+}
