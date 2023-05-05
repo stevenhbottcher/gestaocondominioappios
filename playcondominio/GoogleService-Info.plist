@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>864509737872-1q917r11go46k8o5cgqv5a5aqno1c3iu.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.864509737872-1q917r11go46k8o5cgqv5a5aqno1c3iu</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAqbVjnLfxLYN2MlVZmBadKiTfl8B5i0Ro</string>
+	<key>GCM_SENDER_ID</key>
+	<string>864509737872</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>playcondominio.comapp</string>
+	<key>PROJECT_ID</key>
+	<string>playcondominio</string>
+	<key>STORAGE_BUCKET</key>
+	<string>playcondominio.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:864509737872:ios:2da39f138c8715ac</string>
+	<key>DATABASE_URL</key>
+	<string>https://playcondominio.firebaseio.com</string>
+</dict>
+</plist>
