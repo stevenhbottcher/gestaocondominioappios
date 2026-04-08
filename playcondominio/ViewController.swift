@@ -14,10 +14,31 @@ class ViewController: UIViewController, WKNavigationDelegate,WKUIDelegate {
     var webView: WKWebView!
     
     override func loadView(){
-        webView = WKWebView();
+    let config = WKWebViewConfiguration()
+    
+        // Suprime erros do Firebase Messaging na WebView
+        let script = """
+            if (!('serviceWorker' in navigator)) {
+                navigator.serviceWorker = {
+                    addEventListener: function() {},
+                    register: function() { return Promise.resolve(); }
+                };
+            }
+        """
+        let userScript = WKUserScript(
+            source: script,
+            injectionTime: .atDocumentStart,
+            forMainFrameOnly: false
+        )
+        config.userContentController.addUserScript(userScript)
+        
+        webView = WKWebView(frame: .zero, configuration: config)
         webView.navigationDelegate = self
-        webView?.uiDelegate = self;
-        view = webView;
+        webView.uiDelegate = self
+        if #available(iOS 16.4, *) {
+            webView.isInspectable = true
+        }
+        view = webView
     }
     
     override func viewDidLoad() {
@@ -104,6 +125,13 @@ class ViewController: UIViewController, WKNavigationDelegate,WKUIDelegate {
         }
         
         self.present(alertController, animated: true, completion: nil)
+    }
+    
+    func webView(_ webView: WKWebView,
+        decidePolicyFor navigationAction: WKNavigationAction,
+        decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
+            
+        decisionHandler(.allow)
     }
     
     //        if ipad will crash on this do this (https://stackoverflow.com/questions/42772973/ios-wkwebview-javascript-alert-crashing-on-ipad?noredirect=1&lq=1):
