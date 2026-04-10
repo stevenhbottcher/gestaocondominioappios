@@ -15,6 +15,7 @@ workflows:
           xcode-project build-ipa \
             --workspace "playcondominio.xcworkspace" \
             --scheme "playcondominio"
+            --automatic-code-signing
 
     artifacts:
       - build/ios/ipa/*.ipa
