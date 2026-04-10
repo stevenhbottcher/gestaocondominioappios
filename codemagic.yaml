@@ -14,7 +14,7 @@ workflows:
         script: |
           xcode-project build-ipa \
             --workspace "playcondominio.xcworkspace" \
-            --scheme "playcondominio"
+            --scheme "playcondominio" \
             --automatic-code-signing
 
     artifacts:
