@@ -43,11 +43,11 @@ class ViewController: UIViewController, WKNavigationDelegate,WKUIDelegate {
     
     override func viewDidLoad() {
         var url = URL(string: "https://playcondominios.com.br/Condominio")!
-        InstanceID.instanceID().instanceID { (result, error) in
+        Messaging.messaging().token { (result, error) in
             if let error = error {
                 print("Error fetching remote instance ID: \(error)")
             } else if let result = result {
-                url = URL(string: "https://playcondominios.com.br/Condominio/Home/AcessoIOS?Token="+result.token)!
+                url = URL(string: "https://playcondominios.com.br/Condominio/Home/AcessoIOS?Token="+token)!
             }
             self.webView.load(URLRequest(url:url))
             self.webView.allowsBackForwardNavigationGestures = true
