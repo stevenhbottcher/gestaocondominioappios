@@ -10,12 +10,15 @@ workflows:
         bundle_identifier: playcondominio.comapp
 
     scripts:
+      - name: Apply code signing
+        script: |
+          xcode-project use-profiles
+
       - name: Build IPA
         script: |
           xcode-project build-ipa \
             --workspace "playcondominio.xcworkspace" \
-            --scheme "playcondominio" \
-            --automatic-code-signing
+            --scheme "playcondominio"
 
     artifacts:
       - build/ios/ipa/*.ipa
