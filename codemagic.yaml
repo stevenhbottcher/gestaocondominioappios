@@ -10,7 +10,16 @@ workflows:
         bundle_identifier: playcondominio.comapp
 
     scripts:
-      - name: Apply code signing
+      - name: Clean Pods
+        script: |
+          rm -rf Pods
+          rm -rf Podfile.lock
+
+      - name: Install Pods
+        script: |
+          pod install --repo-update
+
+      - name: Apply Code Signing
         script: |
           xcode-project use-profiles
 
