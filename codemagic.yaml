@@ -1,5 +1,20 @@
 workflows:
-    sample-workflow:
-        name: Playcondominio
-        max_build_duration: 120
-        instance_type: mac_mini_m2
+  ios-workflow:
+    name: Playcondominio
+    max_build_duration: 120
+    instance_type: mac_mini_m2
+
+    environment:
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: playcondominio.comapp
+
+    scripts:
+      - name: Build IPA
+        script: |
+          xcode-project build-ipa \
+            --workspace "playcondominio.xcworkspace" \
+            --scheme "playcondominio"
+
+    artifacts:
+      - build/ios/ipa/*.ipa
